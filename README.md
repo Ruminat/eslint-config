@@ -17,3 +17,11 @@ In your eslint config:
   "extends": ["@ruminat/eslint-config"]
 }
 ```
+
+If you're using prettier:
+
+```javascript
+{
+  "extends": ["@ruminat/eslint-config", "@ruminat/eslint-config/prettier"]
+}
+```
